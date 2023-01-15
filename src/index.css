@@ -121,6 +121,7 @@
 	display: none;
 	right: 20px;
 	background-color: #edaf18;
+	box-shadow: rgb(255 255 255 / 19%) 0px 5px 20px;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -129,7 +130,7 @@
 	text-align: center;
 }
 .arrowTop{
-	color: #052e47 !important;
+	color: #000 !important;
 	font-size: 25px !important;
 	position: absolute;
 	top: 50%;

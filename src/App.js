@@ -59,9 +59,9 @@ function App() {
 
  $(window).scroll( ()=>{
   if(window.scrollY > 450){
-    $(".toTop").show(1000)
+    $(".toTop").fadeIn(400)
   }else{
-    $(".toTop").hide(1000)
+    $(".toTop").fadeOut(400)
   }
  })
 
